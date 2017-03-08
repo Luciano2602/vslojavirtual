@@ -20,6 +20,12 @@ namespace exemplo1
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Olá mundo");
+
+            int i = 1;
+            if (i > 0)
+                i++;
+            else
+                MessageBox.Show("Valor invalido");
         }
     }
 }
